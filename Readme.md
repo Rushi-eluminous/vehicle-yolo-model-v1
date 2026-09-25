@@ -40,12 +40,6 @@ Annotated results are saved in `runs/detect/predict/`.
 
 > Evaluated on a small test set (5 images); real-world accuracy may vary with camera angle, lighting and night footage.
 
-## Retrain
-
-1. Download the dataset from [Roboflow Universe](https://universe.roboflow.com/rushikesh-vyawhare/first-project-andua/dataset/2) in **YOLOv11** format.
-2. Extract it to `datasets/vehicles/` and set `path:` in `data.yaml` to that folder.
-3. Run `python scripts/train.py`
-
 ## Project structure
 
 ```
